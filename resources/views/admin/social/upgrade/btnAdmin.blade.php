@@ -1,0 +1,1 @@
+{{App\Admin::where('id',$admin_id)->first()->name}}

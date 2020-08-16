@@ -1,0 +1,1 @@
+<?php echo e(App\Department::where('id',$department_id)->first()->name); ?>

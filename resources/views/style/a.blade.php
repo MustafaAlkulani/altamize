@@ -1,0 +1,72 @@
+@extends('style.index')
+@section('content')
+    <div class="row center-block">
+        <div class="card-wrapper card-posts-wrapper col-md-8  col-md-push-2">
+            <div class="card-posts">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="text-center">  كان يخوض الكثير من الحروب</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-excerpt">
+                            <p>  كان يخوض الكثير من الحروب ،
+                                و يواجه كماً لا بأس به من الخيباتِ ،
+
+                                ،
+                                و يواجه كماً لا بأس به من الخيباتِ ،
+                                لكنه في نهاية المطاف ، كان يجلسُ على كرسيه و يبتسم هكذا
+
+                                و يواجه كماً لا بأس به من الخيباتِ ،
+
+                            </p>
+
+                        </div><div class="card-gallery five">
+                            <div class="col-xs-6 col-1">
+                                <div class="row">
+
+                                    <div class="image card-modal-open" style="background-image: url(/Desing/site/image/111.jpg);" data-toggle="modal" data-target=".card-modal" data-id="" data-big="image/111.jpg" data-source="image/111.jpg"></div>
+
+                                    <div class="image card-modal-open" style="background-image: url(/Desing/site/image/111.jpg);" data-toggle="modal" data-target=".card-modal" data-id="" data-big="image/222.jpg" data-source="image/222.jpg"></div>
+
+                                </div></div>
+                            <div class="col-xs-6 col-2">
+                                <div class="row">
+                                    <div class="image card-modal-open" style="background-image: url(/desing/site/image/111.jpg);" data-toggle="modal" data-target=".card-modal" data-id="" data-big="image/111.jpg" data-source="image/111.jpg"></div>
+                                    <div class="image card-modal-open" style="background-image: url(/desing/site/image/111.jpg);" data-toggle="modal" data-target=".card-modal" data-id="" data-big="image/222.jpg" data-source="image/222.jpg"></div>
+                                    <div class="image card-modal-open" style="background-image: url(/desing/site/image/111.jpg);" data-toggle="modal" data-target=".card-modal" data-id="" data-big="image/111.jpg" data-source="image/111.jpg">
+                                        <div class="remaining">+1</div></div>
+                                    <div style="display: none;" class="image card-modal-open" data-toggle="modal" data-target=".card-modal" data-id="" data-big="image/222.jpg" data-source="image/222.jpg">
+
+                                    </div></div></div></div>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal card-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content clearfix equal">
+                <div class="col-md-8 col col-vertical card-modal-gallery">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper"></div>
+                        <div class="swiper-pagination swiper-pagination-white"></div>
+                        <div class="swiper-button-prev swiper-button-white"></div>
+                        <div class="swiper-button-next swiper-button-white"></div>
+                    </div>
+                </div>
+                <span class="card-modal-close-btn" data-dismiss="modal">&#10006;</span>
+                <div class="col-md-4 col card-modal-content"></div>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>
+
+@endsection

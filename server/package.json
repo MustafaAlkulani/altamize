@@ -1,0 +1,26 @@
+{
+  "name": "project_chat",
+  "version": "1.0.0",
+  "description": "project_chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "project_chat"
+  ],
+  "author": "abosam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "serve": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}

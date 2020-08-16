@@ -1,0 +1,1 @@
+{{App\Department::where('id',$department_id)->first()->name}}

@@ -1,0 +1,107 @@
+
+/*
+
+.navbar-inverse .navbar-nav > .active > a
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus
+
+{
+	 background:#E41b17;
+	 border-radius: 10px;
+}
+
+
+*/
+
+
+.search-form
+{
+    border-radius: 3px;
+    border: 1px solid #374850;
+    margin: 10px 10px;
+}
+
+.search-forminput[type="text"],
+.search-form .btn {
+    box-shadow: none;
+    background-color: #374850;
+    border: 1px solid transparent;
+    height: 35px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.search-forminput[type="text"] {
+    color: #666;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+}
+.search-form input[type="text"]:focus,
+.search-form input[type="text"]:focus + .input-group-btn .btn {
+    background-color: #fff;
+    color: #666;
+}
+.search-form input[type="text"]:focus + .input-group-btn .btn {
+    border-left-color: #fff;
+}
+.search-form .btn {
+    color: #999;
+    border-top-left-radius: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 0;
+}
+
+.right .direct-chat-text
+{
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.direct-chat-img {
+    border-radius: 0;
+    float: left;
+    width: 70px;
+    height: 40px;
+    margin-bottom:3px;
+    margin-top:-7px;
+}
+.nav_header,
+.dropdown-menu
+{
+    background:#2a8f99;
+    color: #333;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #333;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color:#2a8f99;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #2a8f99;
+}
+.dropdown-menu {
+    background-color: #2a8f99;
+    /* border-top: 3px solid #E41817; */
+    min-width: 100px;
+
+}
+.dropdown-menu >li >a {
+    color: #0e0e0e;
+    background: #2a8f99;
+}
+.dropdown-menu>li >.active>a,.dropdown-menu >li >.active>a:focus,.dropdown-menu >li >.active>a:hover
+{
+    color: #fff;
+    background-color:#2a8f99;
+
+}
+.dropdown-menu>li >.open>a, .dropdown-menu>li >.open>a:focus, .dropdown-menu>li >.open>a:hover {
+    color: #fff;
+    background-color:#2a8f99;
+}

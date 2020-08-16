@@ -1,0 +1,60 @@
+.ffff {
+
+    background: #2a8f99;
+    color: #333;
+
+}
+.foot-center {
+	margin-top: 46px;
+}
+.ffff::before {
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, #ffffff 0%, #2fa7cd 50%, #ffffff 100%) repeat scroll 0 0;
+	content: "";
+	height: 6px;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	right: 0;
+}
+.ff{
+	padding-left:1px;
+}
+.ffff-box
+{
+
+	padding:5px;
+	border:1xp solid #DDD;
+	border-radius:10px;
+
+	margin-bottom:20px;
+}
+.foot-center
+{
+	margin-top:20px;
+}
+
+
+
+.foot-ul > li{
+	    display:block ;
+
+}
+
+
+ .msr-img
+ {
+ 	width: 70%;
+ }
+ .details-img
+{
+	width: 70%;
+	height:70%;
+
+
+}
+.details-news
+{
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:5%;
+}

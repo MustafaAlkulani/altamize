@@ -1,0 +1,1 @@
+{{App\StudyCourse::find($study_course_id)->Study_plan->name_ar }}

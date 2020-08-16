@@ -1,0 +1,390 @@
+
+.more-dropdown {
+
+    float: right;
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 180px;
+    list-style: none;
+    /*border: 1px solid $border-color;*/
+    box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+    background-color: #fff;
+    border-radius: 4px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+    text-align: left;
+    padding: 15px 20px;
+    z-index: 5;
+}
+
+.more-dropdown ul {
+    padding: 15px 25px;
+    margin-bottom: 0;
+}
+
+.more-dropdown li a > * {
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.more-dropdown a {
+    text-align: right;
+    padding: 7px 0;
+    font-size: 12px;
+    color: #515365;
+    display: block;
+    font-weight: 700;
+}
+
+.more-dropdown a:hover {
+    color: #ff5e3a;
+}
+
+.more:hover .more-dropdown {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+.more {
+    float: right;
+    position: relative;
+    transition: all .3s ease;
+    color: #888da8;
+    fill: #c0c4d8;
+}
+
+/*************************************************************/
+#post-comment {
+    display: none;
+}
+
+#replyPostComment {
+    display: none;
+}
+
+.photoCommentButtun {
+    position: relative;
+    float: right;
+    top: -46px;
+    background: rgba(0, 0, 0, 0);
+    left: -41px;
+}
+
+.sendCommentButtun {
+    display: none;
+    position: relative;
+    float: right;
+    top: -36px;
+    background: rgba(0, 0, 0, 0);
+    left: 41px;
+    color: #0f12ca;
+
+}
+
+.sendCommentButtunHasNotValue {
+    display: none;
+
+}
+
+.sendCommentButtunHasValue {
+    display: inline-block;
+    position: relative;
+    float: right;
+    top: -36px;
+    background: rgba(0, 0, 0, 0);
+    left: 41px;
+    color: #0f12ca;
+
+}
+
+.sendCommentReplyButtun {
+    display: none;
+    position: relative;
+    float: right;
+    top: -36px;
+    background: rgba(0, 0, 0, 0);
+    left: 41px;
+    color: #0f12ca;
+
+}
+
+.sendCommentReplyButtunHasNotValue {
+    display: none;
+
+}
+
+.sendCommentReplyButtunHasValue {
+    display: inline-block;
+    position: relative;
+    float: right;
+    top: -36px;
+    background: rgba(0, 0, 0, 0);
+    left: 41px;
+    color: #0f12ca;
+
+}
+
+/*****************************/
+.post-replycomt-box {
+    float: right;
+    top: -42px;
+}
+
+.mycustomListItems {
+    display: none;
+}
+
+.assignmentInfoText {
+    display: none;
+}
+
+.assignmentInfoTextTrue {
+    display: block;
+}
+
+.assignmentInfoBtn {
+    color: #0087E1;
+}
+
+.asignmentUploadForm {
+    display: none;
+}
+
+/*///////////////////  */
+
+.new-post-image-holder {
+    margin-top: 10px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.new-post-image-holder img {
+    max-width: 100%;
+    max-height: 200px;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    border-radius: 4px;
+}
+
+.new-comment-image-holder {
+    margin-top: 10px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.new-comment-image-holder img {
+    max-width: 100%;
+    max-height: 200px;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    border-radius: 4px;
+}
+
+.new-comment-image-holder a {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.new-comment-image-holder a img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.new-post-image-holder a {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.new-post-image-holder a img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.new-post-image-holder a {
+    width: 32.5%;
+    max-height: 100px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background-size: cover !important;
+}
+
+.new-post-image-holder.single-image {
+    max-height: inherit !important;
+    height: auto;
+}
+
+.new-post-image-holder.single-image a {
+    max-height: inherit;
+    height: auto;
+    width: 100%;
+}
+
+.new-post-image-holder.single-image a img {
+    max-height: inherit !important;
+    height: auto;
+    width: 100%;
+}
+
+#new-post-image-holder img {
+    width: auto !important;
+    height: 60px !important;
+    margin-right: 5px;
+    padding-left: 13px;
+}
+
+.new-post-image-holder a {
+    width: 32.5%;
+    max-height: 100px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background-size: cover !important;
+    overflow: hidden;
+}
+
+.new-post-image-holder.single-image {
+    max-height: inherit !important;
+    height: auto;
+}
+
+.new-post-image-holder.single-image a {
+    max-height: inherit;
+    height: auto;
+    width: 100%;
+}
+
+.new-post-image-holder.single-image a img {
+    max-height: inherit !important;
+    height: auto;
+    width: 100%;
+}
+
+.pip {
+    position: relative;
+    display: inline-block;
+}
+
+.pip .remove-thumb {
+    position: absolute;
+    right: 8px;
+    top: 2px;
+    background: #000;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 12px;
+}
+
+.pip .remove-commentImage {
+    position: absolute;
+    right: 8px;
+    top: 2px;
+    background: #000;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 12px;
+}
+
+/*///////////////////////*/
+
+.messageTools {
+
+}
+
+.showMessageInfo {
+    display: none;
+}
+
+.UserMassager-dropdown {
+    float: left;
+    display: block;
+    position: absolute;
+    top: 75%;
+    left: 10px;
+    right: 95%;
+    width: 200px;
+    list-style: none;
+    /* border: 1px solid $border-color; */
+    box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+    background-color: #fff;
+    border-radius: 4px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+    text-align: left;
+    padding: 1px 2px;
+    z-index: 5;
+}
+
+/*/////////////////////*/
+.activeLike {
+    color: #107aff;
+    font-weight: 900;
+    /*font-size: 27px;*/
+}
+
+.UnactiveLike {
+    color: #333231;
+    font-weight: 600;
+
+}
+
+.contFrinds1 {
+    background: #0ca1f9;
+    color: #f8f9fa;
+    font-size: 16px;
+}
+
+.contFrinds2 {
+    background: #f39c12;
+    color: white;
+    font-size: 16px;
+}
+
+/*.btn_image*/
+/*{*/
+/*overflow: hidden;*/
+/*display: block;*/
+/*position: absolute;*/
+/*z-index: 10;*/
+/*transform: translate(50px,10px);*/
+/*transition:all 0.3s linear 0s  ;*/
+/*}*/
+
+.modal {
+
+    top: 10%;
+    height: auto;
+
+}
+
+/*.modal-dialog {*/
+/*position: absolute;*/
+/*top: 50px;*/
+/*right: 100px;*/
+/*bottom: 0;*/
+/*left: 0;*/
+/*width: 100%;*/
+/*z-index: 10040;*/
+/*overflow: auto;*/
+/*overflow-y: auto;*/
+/*}*/
+
+

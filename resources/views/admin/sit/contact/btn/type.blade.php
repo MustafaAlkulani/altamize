@@ -1,0 +1,9 @@
+@if($type==1)
+    <span>اعجاب</span>
+    @elseif($type==2)
+<span>مشكلة</span>
+@elseif($type==3)
+    <span>قتراح</span>
+@else
+    <span>استفسار</span>
+@endif
