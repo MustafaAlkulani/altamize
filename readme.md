@@ -1,2 +1,3 @@
 # altamize
- website system for collage mangment
+  Awhole website system for collage mangment   for Altamize collage .
+ 
